@@ -1,0 +1,40 @@
+{
+  "name": "reiciendislabore",
+  "version": "1.0.0",
+  "description": "Utilities for ethereum payments, such as bip44 addresses, and sweeping funds",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --slow 35000 --timeout 3000000 --bail"
+  },
+  "author": "TheodoraLubowitz",
+  "license": "MIT",
+  "devDependencies": {
+    "async": "^2.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "standard": "^8.5.0"
+  },
+  "dependencies": {
+    "bitcore-lib": "^0.14.0",
+    "elliptic": "^6.4.0",
+    "ethereum-address": "0.0.4",
+    "ethereumjs-util": "^5.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnitaBeatty/reiciendislabore.git"
+  },
+  "keywords": [
+    "illo",
+    "inventore",
+    "bip44",
+    "payments",
+    "eos",
+    "excepturi",
+    "bitaccess"
+  ],
+  "homepage": "https://github.com/AnitaBeatty/reiciendislabore.git"
+}
